@@ -432,3 +432,25 @@ Try out Flexbox live:
 > **Designed for clarity, beauty, and usability.**
 > 
 > _For best results, add your own diagrams to the `images/` folder as referenced above._
+> 
+
+
+
+---
+
+<p align="center">
+  <b>Happy coding!</b> 🚀
+</p>
+
+## 👨‍💻 About the Author
+
+**Sajib Bhattacharjee**
+MERN Stack Specialist | Full-Stack Web Developer
+
+- 🌐 [Portfolio & Projects](https://github.com/Sajib-Bhattacharjee)
+- 💼 [LinkedIn](https://www.linkedin.com/in/sajib-bhattacharjee-42682a178/)
+- 📧 [Contact Me](mailto:sajibbhattacjarjee2000@gmail.com)
+
+---
+
+<p align="center"><i>Created with ❤️ — 2025 Edition</i></p>
