@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Flexbox: The Ultimate Guide 🚀</title>
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f680.svg">
+  <!-- Docsify core -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- Mermaid diagrams -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <!-- Example panels for live code -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-example-panels/dist/docsify-example-panels.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'CSS Flexbox: The Ultimate Guide 🚀',
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      search: 'auto',
+      plugins: [
+        function(hook, vm) {
+          hook.doneEach(function() {
+            if (window.mermaid) {
+              mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+            }
+          });
+        }
+      ],
+      example: {
+        react: false,
+        vue: false,
+        jsfiddle: true,
+        codepen: true
+      }
+    };
+  </script>
+  <!-- Docsify core -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Search plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Mermaid plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-mermaid@1.0.0/dist/docsify-mermaid.min.js"></script>
+  <!-- Example panels plugin for live code -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-example-panels"></script>
+</body>
+</html> 
